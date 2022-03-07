@@ -1,4 +1,5 @@
 import cocaCola from "./img/cocaCola.jpg";
+import React from "react";
 import {Link} from "react-router-dom";
 
 function CocaCola() {

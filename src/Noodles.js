@@ -1,4 +1,5 @@
 import noodles from "./img/noodles.jpg";
+import React from "react";
 import {Link} from "react-router-dom";
 
 function Noodles() {
