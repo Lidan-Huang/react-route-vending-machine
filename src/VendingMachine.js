@@ -5,7 +5,8 @@ import vendingMachine from "./img/vendingMachine.jpg";
 function VendingMachine() {
 
     return (
-        <div className="VendingMachine" style = {{backgroundImage: `url(${vendingMachine})`}}>
+        <div className="VendingMachine">
+            <img src={vendingMachine} alt="vending machine" />
             <h1>Hello, what would you like to eat?</h1>
 
             <h1><Link to="/chips">Chips</Link> </h1>
