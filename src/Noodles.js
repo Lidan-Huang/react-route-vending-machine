@@ -6,7 +6,8 @@ function Noodles() {
     return (
         <div>
             <img src={noodles} alt="Noodles" />
-            <Link  to='/' />
+            <h1>Fire!!!! Hot! Hot! Hot!</h1>
+            <Link to='/' > Go Back</Link>
         </div>
     );
 }
